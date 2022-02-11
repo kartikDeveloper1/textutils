@@ -15,7 +15,12 @@ export default function About(props) {
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={props.style}>
-                    <strong>TextUtils is a utility</strong> It is shown by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>TextUtils is a utility</strong> Allows You to manipulate text. 
+                    you can set format according to your requirement. In daily scenarios you want to convert text to capital letters
+                    or may want to copy to clipboard . It's great application for text analyst who want to analyze data for generating reports.
+                    <br/>  
+                    <code>This Application is a demonstration of
+                    text based website using react js.</code>
                 </div>
                 </div>
             </div>
@@ -27,7 +32,13 @@ export default function About(props) {
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={props.style}>
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Features includes....</strong> 
+                    <ul>
+                        <li>Converting text to Uppercase.</li>
+                        <li>Converting text to Lowercase.</li>
+                        <li>Copying text to Clipboard.</li>
+                        <li>Removing Extra Sapces from text.</li>
+                    </ul>
                 </div>
                 </div>
             </div>
@@ -39,7 +50,14 @@ export default function About(props) {
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={props.style}>
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Provides Services...</strong>
+                    <ul>
+                        <li>You can enable/Disable Dark theme mode.</li>
+                        <code>By clicking right side Switch button.</code>
+                        <li>Fast Manipulation of text. </li>
+                        <li>Reduces Efforts.</li>
+                        <li>Saves Time.</li>
+                    </ul>
                 </div>
                 </div>
             </div>
