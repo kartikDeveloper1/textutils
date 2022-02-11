@@ -67,9 +67,9 @@ const EnableDarkMode=()=>{
     <div className="container my-3">
     <Switch>
       <Route exact path="/about">
-        <About  heading="About Us" style={myStyle}/>
+        <About mode={mode}  heading="About Us" style={myStyle}/>
       </Route>
-      <Route exact path="/">
+      <Route exact path="/textutils">
          <TextFrom heading="Enter The Text To Analyze" mode={mode} /> 
       </Route>
     </Switch>
