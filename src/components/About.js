@@ -38,6 +38,7 @@ export default function About(props) {
                         <li>Converting text to Lowercase.</li>
                         <li>Copying text to Clipboard.</li>
                         <li>Removing Extra Sapces from text.</li>
+                        <li>Count Number of Words and Characters in text.</li>
                     </ul>
                 </div>
                 </div>
