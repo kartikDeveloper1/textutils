@@ -45,7 +45,7 @@ export default function TextFrom(props) {
     </div>
     <div className="container my-3">
         <h3 className={`text-${props.mode==='light'?'dark':'light'}` }>Your Text Summary</h3>
-        <p className={`text-${props.mode==='light'?'dark':'light'}` }>{text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
+        <p className={`text-${props.mode==='light'?'dark':'light'}` }>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
     </div>
     </>
     )
